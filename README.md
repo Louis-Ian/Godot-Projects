@@ -1,2 +1,2 @@
-# Godot-Wild-Jam-20
-Repositório da subimissão à 20ª game jam do Godot
+# Godot-Projects
+Repositório de projetos de joogos feitos no Godot
