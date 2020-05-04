@@ -5,6 +5,7 @@
 [ext_resource path="res://Scripts/Car.gd" type="Script" id=3]
 
 [sub_resource type="CircleShape2D" id=1]
+radius = 50.0
 
 [node name="Car" type="RigidBody2D"]
 mass = 0.00102041
@@ -16,18 +17,11 @@ __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Node2D" type="Node2D" parent="."]
-
-[node name="Inside color" type="Sprite" parent="."]
-position = Vector2( 0, 1 )
-texture = ExtResource( 2 )
-
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource( 1 )
 
-[node name="Outer color" type="Sprite" parent="."]
-texture = ExtResource( 1 )
+[node name="Inner Color" type="Sprite" parent="."]
+texture = ExtResource( 2 )
 
-[node name="CanvasModulate" type="CanvasModulate" parent="Outer color"]
-position = Vector2( 0, 1 )
-color = Color( 1, 0, 0, 0.196078 )
+[node name="Outer Color" type="Sprite" parent="."]
+texture = ExtResource( 1 )
