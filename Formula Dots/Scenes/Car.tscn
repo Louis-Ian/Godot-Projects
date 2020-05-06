@@ -18,10 +18,13 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2( 0.2, 0.2 )
 shape = SubResource( 1 )
 
 [node name="Inner Color" type="Sprite" parent="."]
+scale = Vector2( 0.2, 0.2 )
 texture = ExtResource( 2 )
 
 [node name="Outer Color" type="Sprite" parent="."]
+scale = Vector2( 0.2, 0.2 )
 texture = ExtResource( 1 )
