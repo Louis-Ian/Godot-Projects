@@ -9,7 +9,7 @@ extents = Vector2( 423.648, 32.865 )
 [node name="Level01" type="Node2D"]
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
-position = Vector2( 481.59, 388.51 )
+position = Vector2( 269.59, 506.51 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -19,6 +19,19 @@ scale = Vector2( 13.2402, 1 )
 texture = ExtResource( 1 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+shape = SubResource( 1 )
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="."]
+position = Vector2( 983.59, 332.51 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="StaticBody2D2"]
+scale = Vector2( 13.2402, 1 )
+texture = ExtResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2"]
 shape = SubResource( 1 )
 
 [node name="Player" parent="." instance=ExtResource( 2 )]

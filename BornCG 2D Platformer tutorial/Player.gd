@@ -3,7 +3,7 @@
 var velocity = Vector2(0, 0)
 const SPEED = 180
 const GRAVITY = 25
-const JUMP_HEIGHT = -500
+const JUMP_HEIGHT = -800
 const UP_DIRECTION = Vector2.UP
 
 func _physics_process(delta):
