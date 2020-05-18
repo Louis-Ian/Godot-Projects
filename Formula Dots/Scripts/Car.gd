@@ -1,9 +1,7 @@
 extends RigidBody2D
 
 var SCALE = 20
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
+
 #var colors_array = [Color("ff0000"), Color("001aff"), Color("f7ff00"), Color("08ff00")]
 var screen_size
 
@@ -35,6 +33,7 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
+#	*** Testing the movement logic using random direction assignments
 	var random_x_sign = random_negative_or_positive_sign()
 	var random_y_sign = random_negative_or_positive_sign()
 	var new_direction = Vector2(direction.x + random_x_sign * randf() * grip, direction.y + random_y_sign * randf() * grip)
