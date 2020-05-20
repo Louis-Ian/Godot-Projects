@@ -1,0 +1,39 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Bird.png" type="Texture" id=1]
+[ext_resource path="res://Bird.gd" type="Script" id=2]
+
+[sub_resource type="ConvexPolygonShape2D" id=1]
+points = PoolVector2Array( 0, -13, 11, 13, 0, 10, -11, 13 )
+
+[sub_resource type="CircleShape2D" id=2]
+radius = 50.0
+
+[node name="Bird" type="RigidBody2D"]
+light_mask = 0
+rotation = 1.5708
+collision_layer = 0
+gravity_scale = 0.0
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( -0.0460701, 0 )
+scale = Vector2( 0.0744847, 0.089816 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 0, 0, 296, 304 )
+
+[node name="HitBox" type="CollisionShape2D" parent="."]
+position = Vector2( -3.72529e-09, 0 )
+shape = SubResource( 1 )
+
+[node name="Area2D" type="Area2D" parent="."]
+input_pickable = false
+collision_layer = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource( 2 )
+[connection signal="body_entered" from="Area2D" to="." method="_on_Area2D_body_entered"]
+[connection signal="body_exited" from="Area2D" to="." method="_on_Area2D_body_exited"]

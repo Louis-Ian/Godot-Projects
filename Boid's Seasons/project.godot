@@ -16,7 +16,19 @@ _global_script_class_icons={
 [application]
 
 config/name="Boid's Seasons"
+run/main_scene="res://Sky.tscn"
 config/icon="res://icon.png"
+
+[display]
+
+window/size/width=1280
+window/size/height=720
+
+[layer_names]
+
+2d_physics/layer_1=true
+2d_physics/bird=true
+2d_physics/proximity_area=true
 
 [rendering]
 
