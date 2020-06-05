@@ -1,2 +1,2 @@
 # Godot-Projects
-Repositório de projetos de joogos feitos no Godot
+Repositório de projetos de jogos feitos com Godot
