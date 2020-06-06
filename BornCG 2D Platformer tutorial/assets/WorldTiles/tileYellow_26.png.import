@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/platformChar_climb1.png-abdaf61287cc8d3caf7ca1d2b9d15af0.stex"
+path="res://.import/tileYellow_26.png-2519b38b401d8b1b4f253ab5ff19cdb1.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/player/platformChar_climb1.png"
-dest_files=[ "res://.import/platformChar_climb1.png-abdaf61287cc8d3caf7ca1d2b9d15af0.stex" ]
+source_file="res://assets/WorldTiles/tileYellow_26.png"
+dest_files=[ "res://.import/tileYellow_26.png-2519b38b401d8b1b4f253ab5ff19cdb1.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/platformChar_happy.png-ae2401f01af3b3450f67aa83f950b6a4.stex"
+path="res://.import/tileYellow_11.png-79e1012bb3f154d0b497ae5e11642539.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/player/platformChar_happy.png"
-dest_files=[ "res://.import/platformChar_happy.png-ae2401f01af3b3450f67aa83f950b6a4.stex" ]
+source_file="res://assets/WorldTiles/tileYellow_11.png"
+dest_files=[ "res://.import/tileYellow_11.png-79e1012bb3f154d0b497ae5e11642539.stex" ]
 
 [params]
 
